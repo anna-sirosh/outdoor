@@ -39,7 +39,6 @@ button{
 }
 
 .c-btn{
-    position: relative;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -520,6 +519,10 @@ button{
 .buyer_guid-link{
     text-align: center;
     margin: 50px 0;
+}
+
+.buyer_guid-link .c-btn{
+    justify-content: center;
 }
 
 /* buyer_guid end */

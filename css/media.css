@@ -206,10 +206,16 @@
         flex-direction: column;
     }
 
+    .water_info-list li{
+        display: flex;
+    }
+
     .water_info{
         position: absolute;
-        bottom: 10%;
-        right: 30%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 200px;
     }
 
     .about_us_bg_image{
@@ -227,3 +233,5 @@
         justify-content: center;
     }
 }
+
+
